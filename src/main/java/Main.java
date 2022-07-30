@@ -9,7 +9,6 @@ public class Main {
         persArray[3] = new Person("Petrov Oleg", "Engineer4", "Petrov@mailbox.com", "892378532", 36000, 29);
         persArray[4] = new Person("Pavlov Stas", "Engineer5", "Pavlov@mailbox.com", "897832312", 37000, 41);
         for (Person person: persArray){
-
             if (person.age > 40)
                 System.out.println("Работник старше 40: " + person.name + " , возраст: " + person.age); //коммент-й
 

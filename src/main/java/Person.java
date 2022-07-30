@@ -14,6 +14,5 @@ public class Person {
         this.salary = salary;
         this.age = age;
     }
-
 }
 
